@@ -39,14 +39,15 @@ const Auth = () => {
                 </label>
                 <button type='submit' className='auth-btn'>{ isSignup ? 'Sign up':'Log in' }</button>
                 {
-                    isSignup && (
-                        <p style={{color:"#666767",fontSize:"13px"}}>
-                        By clicking “Sign up”, you agree to our 
-                        <span style={{color:"#007ac6"}}> terms of <br/>service</span>,
-                        <span style={{color:"#007ac6"}}> privacy policy</span> and 
-                        <span style={{color:"#007ac6"}}> cookie policy</span>
-                        </p>
-                    )
+                    isSignup 
+                    // && (
+                    //     // <p style={{color:"#666767",fontSize:"13px"}}>
+                    //     // By clicking “Sign up”, you agree to our 
+                    //     // <span style={{color:"#007ac6"}}> terms of <br/>service</span>,
+                    //     // <span style={{color:"#007ac6"}}> privacy policy</span> and 
+                    //     // <span style={{color:"#007ac6"}}> cookie policy</span>
+                    //     // </p>
+                    // )
                 }
             </form>
             <p>
